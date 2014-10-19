@@ -14,6 +14,10 @@
 		4E6A2E1A19F2E50100293C65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A2E1919F2E50100293C65 /* Images.xcassets */; };
 		4E6A2E1D19F2E50100293C65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A2E1B19F2E50100293C65 /* LaunchScreen.xib */; };
 		4E6A2E2919F2E50100293C65 /* PageViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A2E2819F2E50100293C65 /* PageViewTestTests.m */; };
+		4E6A2E3819F2F26100293C65 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A2E3519F2F26100293C65 /* image3.png */; };
+		4E6A2E3919F2F26100293C65 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A2E3619F2F26100293C65 /* image2.png */; };
+		4E6A2E3A19F2F26100293C65 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A2E3719F2F26100293C65 /* image1.png */; };
+		4E6A2E3D19F2F95200293C65 /* PageViewContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A2E3C19F2F95200293C65 /* PageViewContentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		4E6A2E2219F2E50100293C65 /* PageViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6A2E2719F2E50100293C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E6A2E2819F2E50100293C65 /* PageViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewTestTests.m; sourceTree = "<group>"; };
+		4E6A2E3519F2F26100293C65 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		4E6A2E3619F2F26100293C65 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		4E6A2E3719F2F26100293C65 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		4E6A2E3B19F2F95200293C65 /* PageViewContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewContentController.h; sourceTree = "<group>"; };
+		4E6A2E3C19F2F95200293C65 /* PageViewContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewContentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +90,16 @@
 		4E6A2E0B19F2E50100293C65 /* PageViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				4E6A2E1619F2E50100293C65 /* Main.storyboard */,
 				4E6A2E1019F2E50100293C65 /* AppDelegate.h */,
 				4E6A2E1119F2E50100293C65 /* AppDelegate.m */,
 				4E6A2E1319F2E50100293C65 /* ViewController.h */,
 				4E6A2E1419F2E50100293C65 /* ViewController.m */,
-				4E6A2E1619F2E50100293C65 /* Main.storyboard */,
+				4E6A2E3B19F2F95200293C65 /* PageViewContentController.h */,
+				4E6A2E3C19F2F95200293C65 /* PageViewContentController.m */,
+				4E6A2E3519F2F26100293C65 /* image3.png */,
+				4E6A2E3619F2F26100293C65 /* image2.png */,
+				4E6A2E3719F2F26100293C65 /* image1.png */,
 				4E6A2E1919F2E50100293C65 /* Images.xcassets */,
 				4E6A2E1B19F2E50100293C65 /* LaunchScreen.xib */,
 				4E6A2E0C19F2E50100293C65 /* Supporting Files */,
@@ -200,8 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6A2E1819F2E50100293C65 /* Main.storyboard in Resources */,
+				4E6A2E3919F2F26100293C65 /* image2.png in Resources */,
 				4E6A2E1D19F2E50100293C65 /* LaunchScreen.xib in Resources */,
+				4E6A2E3A19F2F26100293C65 /* image1.png in Resources */,
 				4E6A2E1A19F2E50100293C65 /* Images.xcassets in Resources */,
+				4E6A2E3819F2F26100293C65 /* image3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E6A2E3D19F2F95200293C65 /* PageViewContentController.m in Sources */,
 				4E6A2E1519F2E50100293C65 /* ViewController.m in Sources */,
 				4E6A2E1219F2E50100293C65 /* AppDelegate.m in Sources */,
 				4E6A2E0F19F2E50100293C65 /* main.m in Sources */,
@@ -345,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PageViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PageViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
